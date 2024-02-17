@@ -1,0 +1,265 @@
+body, ul, li, p{
+    margin:0;
+    padding:0;
+    list-style: none;
+    font-size:1.2rem;
+    font-family:Arial, Helvetica, sans-serif
+}
+body{
+    background-image: url(img/body-background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+a{
+    text-decoration:none;
+    color:black
+}
+img{
+    max-width:100%;
+    display:block
+}
+.header{
+    background:linear-gradient(grey, rgb(231, 231, 231));
+    display:flex;
+    justify-content: space-between;
+    padding:20px;
+    align-items:center;
+    flex-wrap:wrap;
+}
+.logo{
+    font-family: 'Yatra One', system-ui;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left:5%;
+}
+.menu{
+    display:flex;
+    margin-right:5%
+}
+.menu li{
+    margin-left:10px
+}
+.menu li a{
+    padding:20px;
+    display:block;
+    font-family: "PT Serif", serif;
+}
+.menu li a:hover{
+    background:linear-gradient(black, grey);
+    border-radius:5px;
+    color:white
+}
+.menu li .button{
+    background:linear-gradient(black, grey);
+    border-radius:5px;
+    font-family: "PT Serif", serif;
+    color:white;
+    font-weight: bold;
+}
+.menu li .button:hover{
+    background:black
+}
+.boas-vindas{
+    display:flex;
+    margin-top:0px;
+    align-items:center
+}
+.boas-vindas-text{
+    flex:1 1 40%;
+    margin:5%
+}
+.boas-vindas-text h2{
+    text-align:center;
+    font-family: "PT Serif", serif;
+    font-size:30px;
+    font-weight: bold;
+}
+.boas-vindas-text p{
+    text-align:justify;
+    text-indent:30px;
+    font-family: "PT Serif", serif;
+}
+.boas-vindas-img{
+    flex:1 1 40%;
+    margin:5%
+}
+.boas-vindas-img img{
+    border-radius:10px
+}
+#cardapio-bebidas{
+    display:block;
+    width:100%;
+    font-family: 'Yatra One', system-ui;
+    font-size: 40px;
+    font-weight: bold;
+    text-align:center;
+    }
+.cardapio{
+    margin-top:50px;
+    display:flex;
+    max-width:1200px;
+    margin:0 auto
+}
+.bebidas{
+    display:flex;
+    flex:1 1 20%;
+    margin:1%
+}
+.bebidas a{
+    text-align:center;
+    font-family: 'Yatra One', system-ui;
+    font-size:25px;
+}
+.bebidas a:hover{
+    opacity:0.8;
+}
+.bebidas a img{
+    border-radius:10px
+}
+footer{
+    margin-top:100px;
+    height:300px;
+    background:linear-gradient(grey, black);
+    border-top:5px solid black;
+}
+footer h2{
+    margin-top:50px;
+    text-align:center;
+    font-family: 'Yatra One', system-ui;
+    font-size:35px;
+    font-weight: bold;
+    color:white
+}
+footer p{
+    margin-top:50px;
+    text-align:center;
+    color:white;
+    font-size:15px
+}
+footer address{
+    margin-top:50px;
+    color:white;
+    text-align:center;
+    font-size:15px
+}
+.section-title{
+    width:90%;
+    margin:30px 5%;
+    text-align:center;
+    font-family: 'Yatra One', system-ui;
+    font-size:30px
+}
+.section-p{
+    width:90%;
+    margin:30px 5%;
+    text-align:center;
+    font-family: 'Yatra One', system-ui;
+    font-size:15px
+}
+.drinks-menu{
+    display:flex;
+    flex-flow:column;
+    flex-wrap:wrap;
+    margin:0 auto;
+    max-width:1000px;
+    text-align:center;
+}
+.div1{
+    margin-top:2%;
+    margin-left:5%;
+    margin-right:5%;
+    display:flex;
+    max-width:1000px;
+    background: linear-gradient(grey, white);
+    align-items:center;
+    border-radius:10px;
+    border:1px solid black;
+    box-shadow: 5px 5px 5px black;
+}
+.div1:hover{
+    opacity:0.8
+}
+.drink-menu-img{
+    flex:20%;
+    border-radius:10px;
+}
+.drink-menu-img img{
+    width:150px;
+    border-radius:10px;
+}
+.drink-menu-text{
+    flex:70%;
+    margin-left:1%;
+    font-size:100%;
+    text-align:left;
+}
+.drink-menu-text h2{
+    font-family: "PT Serif", serif;
+    font-size:30px;
+    font-weight:bold;
+}
+h2.long-title{
+    font-family: "PT Serif", serif;
+    font-size:27px;
+    font-weight:bold;
+    }
+.drink-menu-text p{
+    font-family: "PT Serif", serif;
+    font-size:20px;
+    font-weight:700
+}
+.drink-menu-text{
+    font-family: "PT Serif", serif;
+    font-size:20px;
+    font-weight:700
+}
+p.drink-p{
+    font-family: "PT Serif", serif;
+    font-size:20px;
+    font-weight:700
+}
+.voltar h2{
+    text-decoration: none;
+    width:90%;
+    margin:50px;
+    text-align:center;
+    font-family: 'Yatra One', system-ui;
+    font-size:30px
+}
+.voltar:hover{
+    opacity:0.6; 
+}
+.sobre{
+    max-width: 1000px;
+    margin:0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.section-text{
+    font-family: "PT Serif", serif;
+    font-size:20;
+    text-indent:40px;
+    text-align:justify;
+}
+.local{
+    max-width:80%;
+    text-align:center;
+    margin:0 auto;
+    margin-top:50px;
+    border-radius: 20px;
+}
+form{
+    text-align:center;
+    font-family: "PT Serif", serif;
+    font-size:20;   
+    
+}
+label:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+textarea{
+    width:80%;
+    height:100px
+}
+

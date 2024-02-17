@@ -1,0 +1,62 @@
+@media screen and (min-width:600px) and (max-width:850px) {
+        .boas-vindas{
+            flex-flow:column wrap
+        }
+        .boas-vindas-img{
+            display:none
+        }
+        .bebidas a{
+            font-size: 20px;
+        }
+        .drink-menu-text h2{
+            font-size: 22px;
+        }
+        h2.long-title{
+            font-size: 20px;
+        }
+        .drink-menu-text p {
+            font-size: 17px;
+        }
+        .menu li a{
+            padding:15px;
+            font-size: 20px;
+        }
+        .voltar h2{
+            font-size: 25px;
+        }
+       
+}
+
+@media screen and (max-width:600px) {
+    .boas-vindas{
+        flex-flow:column wrap
+    }
+    .boas-vindas-img{
+        display:none
+    }
+    .bebidas a{
+        font-size: 15px;
+    }
+    .drink-menu-text p{
+       display: none;
+}
+     
+    .drink-menu-text h2{
+        font-size: 26px;
+    }
+    h2.long-title{
+        font-size: 22px;
+    }
+    p.drink-p{
+        display: flex;
+        font-size: 14px;
+    }
+    .menu li a{
+        padding:10px;
+        font-size:18px
+    }
+    .voltar h2{
+        font-size: 18px;
+        
+    }
+}   
