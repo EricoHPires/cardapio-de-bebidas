@@ -26,6 +26,7 @@
         }
         .voltar h2{
             font-size: 25px;
+            margin:0 auto;
         }
        
 }
@@ -67,6 +68,7 @@
             font-size: 15px;
     }    
     .voltar h2{
-        font-size: 18px;        
+        font-size: 18px; 
+        margin:0 auto
     }
 }   
