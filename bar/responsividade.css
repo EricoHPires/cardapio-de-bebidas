@@ -37,6 +37,12 @@
     .boas-vindas-img{
         display:none
     }
+    .boas-vindas-text h2{
+                font-size:20px
+    }
+    .boas-vindas-text p{
+            font-size:18px
+    }
     #cardapio-bebidas{
             font-size: 20px;
     }
@@ -45,8 +51,7 @@
     }
     .drink-menu-text p{
        display: none;
-}
-     
+    }     
     .drink-menu-text h2{
         font-size: 26px;
     }
