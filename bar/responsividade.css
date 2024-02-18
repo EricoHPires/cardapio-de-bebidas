@@ -21,8 +21,8 @@
             font-size: 17px;
         }
         .menu li a{
-            padding:5px;
-            font-size: 15px;
+        padding:10px;
+        font-size:18px
         }
         .voltar h2{
             font-size: 25px;
@@ -58,11 +58,10 @@
         font-size: 14px;
     }
     .menu li a{
-        padding:10px;
-        font-size:18px
-    }
+            padding:5px;
+            font-size: 15px;
+    }    
     .voltar h2{
-        font-size: 18px;
-        
+        font-size: 18px;        
     }
 }   
