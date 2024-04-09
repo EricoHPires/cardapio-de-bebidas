@@ -1,1 +1,1 @@
-https://cardapio-de-bebidas.vercel.app/
+https://cardapio-de-bebidas-x5c8.vercel.app/
